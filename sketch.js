@@ -32,10 +32,10 @@ function setup() {
    leg.hide();
    hair.hide();
 }
-
+}
 
 function draw(){
-  background(0);
+  background(255);
   image(fire,0,0,500,300);
   image(night,500,0,500,300);
   image(wide,0,300,1000,200);
