@@ -32,7 +32,7 @@ function setup() {
   hair.hide();
    leg.hide();
 }
-}
+
 
 function draw(){
   background(0);
