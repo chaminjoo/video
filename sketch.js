@@ -14,10 +14,12 @@ function setup() {
                          ]);
   fire.play();
   night.play();
+  fire.hide();
+  night.hide();
 }
 
 function draw(){
   background(0);
-  image(fire,0,0,500,200);
- // image(night,fire.width,0);
+  image(fire,0,0,500,300);
+  image(night,500,300);
 }
