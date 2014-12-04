@@ -23,14 +23,14 @@ function setup() {
                          ]);
   fire.loop();
   night.loop();
-    wide.loop();
-    hair.loop();
-    leg.loop();
+  wide.loop();
+  leg.loop();
+   hair.loop();
   fire.hide();
   night.hide();
    wide.hide();
-  hair.hide();
    leg.hide();
+   hair.hide();
 }
 
 
@@ -39,6 +39,6 @@ function draw(){
   image(fire,0,0,500,300);
   image(night,500,0,500,300);
   image(wide,0,300,1000,200);
-   image(hair,0,500,500,300);
-    image(leg,500,500,500,300);
+    image(leg,0,500,500,300);
+      image(hair,500,500,500,300);
 }
