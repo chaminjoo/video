@@ -2,6 +2,7 @@ var playing = false;
 var fire;
 var button;
 var night;
+var wide;
 
 function setup() {
 
@@ -16,8 +17,10 @@ function setup() {
                          ]);
   fire.loop();
   night.loop();
+    wide.loop();
   fire.hide();
   night.hide();
+   wide.hide();
 }
 
 function draw(){
