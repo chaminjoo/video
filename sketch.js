@@ -34,5 +34,5 @@ function toggleVid() {
     fire.loop();
     button.html('pause');
   }
-  playing = !playing;
+  
 }
