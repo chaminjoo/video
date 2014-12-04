@@ -3,8 +3,8 @@ var fingers;
 function setup() {
   createCanvas(320, 240);
   // specify multiple formats for different browsers
-  fingers = createVideo(['assets/fingers.mov', 
-                         'assets/fingers.webm']);
+  fingers = createVideo(['fire.mp4', 
+                         'fire.webm']);
   fingers.loop();
   fingers.hide();
   noStroke();
