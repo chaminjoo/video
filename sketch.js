@@ -17,6 +17,7 @@ function setup() {
 }
 
 function draw(){
+  background(0);
   image(fire,0,0);
  // image(night,fire.width,0);
 }
