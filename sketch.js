@@ -12,10 +12,11 @@ function setup() {
   
    night = createVideo(['night.mp4'
                          ]);
-  
+  fire.play();
+  night.play();
 }
 
 function draw(){
   image(fire,0,0);
-  image(night,fire.width,0);
+ // image(night,fire.width,0);
 }
