@@ -10,7 +10,7 @@ function setup() {
   button = createButton('play');
   button.mousePressed(toggleVid); // attach button listener
 
-   fire = createVideo(['fire.mp4'
+   night = createVideo(['night.mp4'
                          ]);
   button = createButton('play');
   button.mousePressed(toggleVid); // attach button listener
@@ -28,7 +28,7 @@ function toggleVid() {
   playing = !playing;
 
   if (playing) {
-    fire.pause();
+    night.pause();
     button.html('play');
   } else {
     fire.loop();
