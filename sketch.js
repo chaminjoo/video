@@ -28,7 +28,7 @@ function setup() {
 }
 
 function draw(){
-  background(255);
+  background(0);
   image(fire,0,0,500,300);
   image(night,500,0,500,300);
   image(wide,0,300,1000,200);
