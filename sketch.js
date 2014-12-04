@@ -12,6 +12,8 @@ function setup() {
   
    night = createVideo(['night.mp4'
                          ]);
+    wide = createVideo(['wide.mp4'
+                         ]);
   fire.loop();
   night.loop();
   fire.hide();
@@ -22,4 +24,5 @@ function draw(){
   background(0);
   image(fire,0,0,500,300);
   image(night,500,0,500,300);
+  image(wide,0,300,1000,200);
 }
