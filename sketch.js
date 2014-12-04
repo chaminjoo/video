@@ -1,11 +1,11 @@
 var playing = false;
-var fingers;
+var fire;
 var button;
 
 
 function setup() {
   // specify multiple formats for different browsers
-  fingers = createVideo(['fire.mp4', 
+  fire = createVideo(['fire.mp4', 
                          'fire.webm']);
   button = createButton('play');
   button.mousePressed(toggleVid); // attach button listener
@@ -14,10 +14,10 @@ function setup() {
 // plays or pauses the video depending on current state
 function toggleVid() {
   if (playing) {
-    fingers.pause();
+    fire.pause();
     button.html('play');
   } else {
-    fingers.loop();
+    fire.loop();
     button.html('pause');
   }
   playing = !playing;
