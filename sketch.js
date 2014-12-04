@@ -2,6 +2,9 @@ var playing = false;
 var fire;
 var button;
 
+var night;
+var button;
+
 
 function setup() {
   // specify multiple formats for different browsers
