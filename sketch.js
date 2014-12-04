@@ -5,8 +5,8 @@ var button;
 
 function setup() {
   // specify multiple formats for different browsers
-  fire = createVideo(['assets/fire.mp4', 
-                         'assets/fire.webm']);
+  fire = createVideo(['fire.mp4', 
+                         'fire.webm']);
   button = createButton('play');
   button.mousePressed(toggleVid); // attach button listener
 }
