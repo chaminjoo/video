@@ -3,6 +3,7 @@ var fire;
 var button;
 var night;
 var wide;
+var hair;
 
 function setup() {
 
@@ -15,15 +16,18 @@ function setup() {
                          ]);
      wide = createVideo(['wide.mp4'
                          ]);
+     hair = createVideo(['hair.mp4'
+                         ]);
 
 
   fire.loop();
   night.loop();
   wide.loop();
+  hair.loop();
   fire.hide();
   night.hide();
   wide.hide();
-
+  hair.hide();
 }
 
 function draw(){
@@ -31,4 +35,6 @@ function draw(){
   image(fire,0,0,500,300);
   image(night,500,0,500,300);
   image(wide,0,300,1000,200);
+   image(hair,0,500,500,300);
+
 }
